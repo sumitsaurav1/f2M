@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <title>f2_module_test</title>
+<html>
+    <head>
+        <h2 class="title">
+            Student Portal
+        </h2>
+    </head>
+    <body>
+        
+        <div id="search-container" class="search">
+            <input type="search" placeholder="Enter First Name or Last Name or Email" id="search-input" value="">
+            <button id="search-button">Search</button>
+        </div>
+        <div class="button-container">
+            <button class="button" id="sort-A-Z">
+                <Span>Sort A</Span>
+                <span class="material-symbols-outlined">
+                    arrow_right_alt
+                    </span>
+                <span>Z</span>
+            </button>
+            <button class="button" id="sortZ-A">
+                <Span>Sort Z</Span>
+                <span class="material-symbols-outlined">
+                    arrow_right_alt
+                    </span>
+                <span>A</span>
+            </button>
+            <button class="button" id="marks-Sort">Sort By Marks</button>
+            <button class="button" id="sort-passed">Sort By Passing</button>
+            <button class="button" id="class-sort">Sort By Class</button>
+            <button class="button" id="gender-sort">Sort By Gender</button>
+        </div>
+        <div style="padding: 5px 15px;" id="table-container">
+            <table width="100%" class="table" id="table-body">
+                <thead>
+                   <th>ID</th>
+                   <th>Name</th>
+                   <th>Gender</th>
+                   <th>Class</th>
+                   <th>Marks</th>
+                   <th>Passing</th>
+                   <th>Email</th>
+                </thead>
+                <tr>
+                    <!-- <td>1</td>
+                    <td class="name">
+                        <img src="./dp 1.png" alt="">
+                        <span>Avi Vashishta</span>
+                    </td>
+                    <td>Male</td>
+                    <td>12</td>
+                    <td>99</td>
+                    <td>Failed</td>
+    
+                    <td>avi@gmail.com</td> -->
+                </tr>
+            </table>
+        </div>
+        <script src="./index.js"></script>
+        <script src="./index2.js"></script>
+        <script src="./nameA_Z.js"></script>
+        <script src="./nameZ_A.js"></script>
+        <script src="./sortByMarks.js"></script>
+        <script src="./sortByPassing.js"></script>
+        <script src="./sortByClass.js"></script>
+        <script src="./sortByGender.js"></script>
+    </body>
+</html>

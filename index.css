@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(205,205,205);
+    font-size: 16px;
+    /* border: none; */
+}
+.title{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.search{
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+}
+.search input{
+    flex-grow: 1;
+    padding: 10px 5px;
+}
+.search button{
+    padding: 10px 35px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.button{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 10px 35px;
+    background-color: black;
+    color: white;
+}
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.button span{
+    background-color: black;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+table{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+.name img{
+    width: 10%;
+    border-radius: 100%;
+    border: 1px solid red;
+}
+td:nth-child(1) {
+    width: 4%;
+}
+td:nth-child(7) {
+    width: 28%;
+}
+td:nth-child(3),td:nth-child(4),td:nth-child(5),td:nth-child(6){
+    width: 10%;
+}
+
+.divMale,.divFemale{
+    border: 20px solid tomato;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.divMale table,.divFemale table{
+    margin-bottom: 0px;
+}
+.divMale h2,.divFemale h2{
+    color: white;
+    text-align: center;
+    background-color:tomato;
+    padding: 10px 0px;
+    font-size: 22px;
+}
